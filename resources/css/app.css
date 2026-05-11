@@ -1,0 +1,56 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-feature-settings: 'ss03' on;
+    }
+
+    body {
+        @apply bg-[#fbfbf5] text-[#000000] font-sans antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-display;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply rounded-pill bg-[#000000] px-6 py-3 text-body-md font-[420] text-[#ffffff] transition-all hover:bg-[#3f3f46] focus:outline-none focus:ring-2 focus:ring-[#000000] focus:ring-offset-2 disabled:opacity-50;
+    }
+
+    .btn-aloe {
+        @apply rounded-pill bg-[#c1fbd4] px-6 py-3 text-body-md font-[420] text-[#000000] transition-all hover:bg-[#a8f0be] focus:outline-none focus:ring-2 focus:ring-[#c1fbd4] focus:ring-offset-2 disabled:opacity-50;
+    }
+
+    .btn-outline {
+        @apply rounded-pill border border-[#000000] bg-white px-6 py-3 text-body-md font-[420] text-[#000000] transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#000000] focus:ring-offset-2 disabled:opacity-50;
+    }
+
+    .card {
+        @apply rounded-lg bg-white p-6 shadow-card;
+    }
+
+    .card-hover {
+        @apply card transition-shadow hover:shadow-card-hover;
+    }
+
+    .input-shopify {
+        @apply rounded-md border border-[#e4e4e7] bg-white px-3 py-2.5 text-body-md text-[#000000] placeholder:text-[#a1a1aa] focus:border-[#000000] focus:outline-none focus:ring-1 focus:ring-[#000000];
+    }
+
+    .badge-success {
+        @apply inline-flex items-center rounded-pill bg-[#c1fbd4] px-3 py-1 text-eyebrow font-[400] text-[#000000];
+    }
+
+    .badge-neutral {
+        @apply inline-flex items-center rounded-pill bg-[#d4d4d8] px-3 py-1 text-eyebrow font-[400] text-[#000000];
+    }
+}

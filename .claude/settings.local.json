@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir *)",
+      "Bash(php -v)",
+      "Bash(composer --version)",
+      "Bash(npm --version)",
+      "PowerShell(mysql *)",
+      "PowerShell(Start-Process \"C:\\\\xampp\\\\xampp-control.exe\" -WindowStyle Hidden; $mysql = \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\"; & $mysql -u root -e \"CREATE DATABASE IF NOT EXISTS kelola_umkm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\" 2>&1)",
+      "PowerShell(php --ini 2>&1)",
+      "PowerShell(Set-Content *)",
+      "Read(//f//**)",
+      "Bash(node -e ' *)",
+      "Bash(php *)",
+      "Bash(cygpath -w /tmp/awesome-design-md/design-md/claude/DESIGN.md)",
+      "Bash(cmd //c echo %TMP%\\\\awesome-design-md\\\\design-md\\\\claude\\\\DESIGN.md)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(npm run *)",
+      "Bash(timeout 5)",
+      "Bash(findstr /n \".\")",
+      "Bash(findstr /B \"[12345]:\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8000)",
+      "WebFetch(domain:github.com)",
+      "Bash(cmd /c \"tree /F /A\")",
+      "Bash(powershell -Command 'Get-ChildItem -Recurse resources\\\\js\\\\Pages | ForEach-Object { if \\($_.PSIsContainer\\) { $_.FullName.Replace\\('\\\\''F:\\\\Users\\\\ihzam\\\\Documents\\\\WEB DEVELOP 2026\\\\Kelola UMKM\\\\'\\\\'', '\\\\'''\\\\''\\) + '\\\\''\\\\'\\\\'' } else { $_.FullName.Replace\\('\\\\''F:\\\\Users\\\\ihzam\\\\Documents\\\\WEB DEVELOP 2026\\\\Kelola UMKM\\\\'\\\\'', '\\\\'''\\\\''\\) } }')",
+      "Bash(powershell -Command 'Get-ChildItem -Recurse app\\\\Http\\\\Controllers | ForEach-Object { if \\($_.PSIsContainer\\) { $_.FullName.Replace\\('\\\\''F:\\\\Users\\\\ihzam\\\\Documents\\\\WEB DEVELOP 2026\\\\Kelola UMKM\\\\'\\\\'', '\\\\'''\\\\''\\) + '\\\\''\\\\'\\\\'' } else { $_.FullName.Replace\\('\\\\''F:\\\\Users\\\\ihzam\\\\Documents\\\\WEB DEVELOP 2026\\\\Kelola UMKM\\\\'\\\\'', '\\\\'''\\\\''\\) } }')",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
