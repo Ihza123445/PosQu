@@ -61,6 +61,56 @@
 
 ---
 
+## Screenshots
+
+### Dashboard & POS
+<p float="left">
+  <img src="public/screenshots/dashboard.png" width="49%" alt="Dashboard" />
+  <img src="public/screenshots/pos.png" width="49%" alt="POS" />
+</p>
+
+### Manajemen Data
+<p float="left">
+  <img src="public/screenshots/produk.png" width="49%" alt="Produk" />
+  <img src="public/screenshots/kategori.png" width="49%" alt="Kategori" />
+</p>
+<p float="left">
+  <img src="public/screenshots/pelanggan.png" width="49%" alt="Pelanggan" />
+  <img src="public/screenshots/promo.png" width="49%" alt="Promo" />
+</p>
+
+### Transaksi & Stok
+<p float="left">
+  <img src="public/screenshots/transaksi-index.png" width="49%" alt="Riwayat Transaksi" />
+  <img src="public/screenshots/stok-log.png" width="49%" alt="Stok Log" />
+</p>
+
+### Target & Pengeluaran
+<p float="left">
+  <img src="public/screenshots/target.png" width="49%" alt="Target Penjualan" />
+  <img src="public/screenshots/pengeluaran.png" width="49%" alt="Pengeluaran" />
+</p>
+
+### Laporan & Akuntansi
+<p float="left">
+  <img src="public/screenshots/laporan-penjualan.png" width="49%" alt="Laporan Penjualan" />
+  <img src="public/screenshots/laporan-trend.png" width="49%" alt="Trend Tahunan" />
+</p>
+<p float="left">
+  <img src="public/screenshots/laporan-laba-rugi.png" width="49%" alt="Laba Rugi" />
+  <img src="public/screenshots/laporan-produk.png" width="49%" alt="Laporan Produk" />
+</p>
+<p float="left">
+  <img src="public/screenshots/buku-besar.png" width="49%" alt="Buku Besar" />
+  <img src="public/screenshots/neraca.png" width="49%" alt="Neraca" />
+</p>
+<p float="left">
+  <img src="public/screenshots/jurnal.png" width="49%" alt="Jurnal Umum" />
+  <img src="public/screenshots/notifikasi.png" width="49%" alt="Notifikasi" />
+</p>
+
+---
+
 ## Tech Stack
 
 | Layer | Teknologi |
@@ -321,8 +371,10 @@ npm run dev
 
 | Email | Password | Role | Outlet |
 |-------|----------|------|--------|
-| admin@kelolaumkm.com | password | Admin Umum | Semua |
-| kasir@kelolaumkm.com | password | Kasir | Outlet A |
+| admin@kelolaumkm.test | password | Admin Umum | Semua |
+| admin.pusat@kelolaumkm.test | password | Admin Cabang | Outlet A |
+| kasir.pusat@kelolaumkm.test | password | Kasir | Outlet A |
+| kasir.sudirman@kelolaumkm.test | password | Kasir | Outlet B |
 
 ---
 
